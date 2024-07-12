@@ -5,7 +5,7 @@ import requests
 class TestCreateFolderYandex:
     def setup_method(self):
         self.headers = {
-            'Authorization': 'OAuth ТОКЕН' # вставить токен яндекса вместо ТОКЕН
+            'Authorization': 'OAuth' # вставить токен яндекса вместо ТОКЕН
         }
 
     def test_create_folder(self):
